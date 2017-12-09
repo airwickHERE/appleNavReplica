@@ -1,0 +1,50 @@
+* {
+	color: #000;
+}
+
+/*select any body element - normally there is just one*/
+body {
+	color: #222222;
+	margin:0;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+span {
+	color: white;
+	text-decoration: none;
+}
+span:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+/*Top Section - Nav*/
+/*select any ul element with a class of nav*/
+ul.nav{
+	position: fixed;
+	padding:0;
+	background: rgba(0,0,0,0.8);
+	margin: 0;
+	text-align: justify;
+	text-align-last: center;
+	width:100%;
+}
+/*select any li element, nested inside of any ul element with a class of nav*/
+ul.nav li{
+	list-style: none;
+	display: inline-block;
+	width: auto;
+	height:15px;
+	padding: 0;
+	margin: 14px 31.6px 14px 31.6px;
+	font-size: 15px;
+}
+/*select any a and span nested inside any ul*/
